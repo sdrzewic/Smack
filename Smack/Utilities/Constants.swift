@@ -16,6 +16,11 @@ typealias CompletionHandler = (_ Success: Bool) -> ()
     let URL_LOGIN = "\(BASE_URL)account/login"
     let URL_USER_ADD = "\(BASE_URL)user/add"
 
+//Colors
+    let smackPurplerPlaceholder = #colorLiteral(red: 0, green: 0.4784313725, blue: 1, alpha: 0.5)
+
+//Notification constants
+let NOTIF_USER_DATA_DID_CHANGE = Notification.Name("notifUserDataChanged")
 
 //segues
 let TO_LOGIN = "toLogin"
